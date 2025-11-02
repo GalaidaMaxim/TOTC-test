@@ -15,6 +15,16 @@
     <title>TOTC</title>
   </head>
   <body>
+    <svg class="clip-defs">
+      <defs>
+        <clipPath id="clipHero" clipPathUnits="objectBoundingBox">
+          <path
+            d="M0 0 L1 0 L1 0.885 C1 0.885 0.843 1 0.5 1 C0.157 1 0 0.885 0 0.885 L0 0 Z"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+
     <header>
       <div class="container">
         <div class="logo">
@@ -37,7 +47,25 @@
       </div>
     </header>
     <main>
-      <section class="herro"></section>
+      <section class="herro">
+        <div class="container">
+          <p class="slogan"><span>Studying </span> Online is now much easier</p>
+          <p class="summary">
+            TOTC is an interesting platform that will teach you in more an
+            interactive way
+          </p>
+          <div class="herro-image-thumb">
+            <img src="./images/herro.png" alt="girl" />
+          </div>
+          <div class="herro-button-panel">
+            <button class="join-button">Join for free</button>
+            <button class="play-button">
+              <img src="./images/play.svg" alt="play" />
+            </button>
+            <p>Watch how it works</p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>

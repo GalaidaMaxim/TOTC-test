@@ -4,7 +4,7 @@
   margin-right: auto;
 }
 html {
-  font-size: 16px;
+  font-size: calc(100vw * (24 / 1920));
 }
 
 body {
@@ -34,4 +34,11 @@ h3 {
 
 a {
   text-decoration: none;
+}
+
+.clip-defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
 }

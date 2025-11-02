@@ -1,5 +1,10 @@
 header {
-  background: #49bbbd;
+  background: transparent;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1000;
 }
 
 header .container {
@@ -56,4 +61,72 @@ header button {
 }
 
 .herro {
+  background-color: #49bbbd;
+  clip-path: url(#clipHero);
+  padding-top: 13.95rem;
+  padding-bottom: 15.79rem;
+
+  position: relative;
+}
+
+.herro .container {
+  width: 69.3rem;
+}
+
+.herro .slogan {
+  font-family: "Inter";
+  font-size: 2.25rem;
+  color: white;
+  width: 28.3rem;
+}
+
+.herro .slogan span {
+  color: #f48c06;
+}
+
+.herro .summary {
+  font-family: "Inter";
+  font-size: 1rem;
+  color: white;
+  width: 28.3rem;
+  margin-top: 2rem;
+}
+
+.herro-image-thumb {
+  width: 32.25rem;
+  position: absolute;
+  bottom: 0px;
+  right: 6.08rem;
+}
+
+.herro-button-panel {
+  margin-top: 2.12rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.join-button {
+  width: 9.16rem;
+  height: 3.33rem;
+  border-radius: 3.33rem;
+  border: none;
+  background-color: white;
+  background: rgba(255, 255, 255, 0.3);
+  font-family: "Inter";
+  font-size: 1rem;
+  color: white;
+}
+
+.play-button {
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  width: 3.33rem;
+  height: 3.33rem;
+  padding: 1rem;
+}
+
+.herro-button-panel p {
+  font-family: "Inter";
 }
