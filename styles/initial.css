@@ -7,6 +7,10 @@ html {
   font-size: calc(100vw * (24 / 1920));
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   margin: 0;
   padding: 0;
