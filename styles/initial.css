@@ -3,12 +3,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: calc(100vw * (24 / 1920));
-}
-
-button {
-  cursor: pointer;
 }
 
 body {
@@ -44,5 +44,15 @@ a {
   position: absolute;
   width: 0;
   height: 0;
+  overflow: hidden;
+}
+
+.imgDiv {
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid gray;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
   overflow: hidden;
 }

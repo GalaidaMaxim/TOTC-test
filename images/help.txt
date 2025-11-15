@@ -1,0 +1,9 @@
+ <svg class="clip-defs">
+      <defs>
+        <clipPath id="clipHero" clipPathUnits="objectBoundingBox">
+          <path
+            d="M0 0 L1 0 L1 0.885 C1 0.885 0.843 1 0.5 1 C0.157 1 0 0.885 0 0.885 L0 0 Z"
+          />
+        </clipPath>
+      </defs>
+    </svg>
